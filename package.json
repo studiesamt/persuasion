@@ -1,0 +1,26 @@
+{
+  "name": "proj_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "mssql": "^6.2.3",
+    "mysql": "^2.18.1",
+    "node-mssql": "0.0.1",
+    "pg": "^8.3.3",
+    "pg-promise": "^10.7.0",
+    "process": "^0.11.10",
+    "url": "^0.11.0",
+    "url-pattern": "^1.0.3",
+    "xml2js": "^0.4.23"
+  }
+}
