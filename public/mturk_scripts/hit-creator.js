@@ -3,8 +3,8 @@ var AWS = require('aws-sdk');
 var fs = require('fs');
 
 var region = 'us-east-1';
-var aws_access_key_id = 'AKIAIBYKYWJW4Y4RZEVQ';
-var aws_secret_access_key = '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';
+var aws_access_key_id = '';
+var aws_secret_access_key = '';
 
 AWS.config = {
     "accessKeyId": aws_access_key_id,
