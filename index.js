@@ -89,10 +89,10 @@ var foot_note="";
   //2.
   const pg = require('pg');
   const pool = new pg.Pool({
-   user: 'mallik@tweetsreviewpg',
-  host: 'tweetsreviewpg.postgres.database.azure.com',
+   user: 'dbodoff@persuasion',
+  host: 'persuasion.postgres.database.azure.com',
   database: 'postgres',
-  password: 'Dell#123',
+  password: 'Bozo@2020',
   port: 5432,
 })
  
@@ -2805,10 +2805,10 @@ for (i = 0; i < coll.length; i++) {
       //2.
       const Pool = require('pg').Pool;
       const pool = new Pool({
-       user: 'mallik@tweetsreviewpg',
-      host: 'tweetsreviewpg.postgres.database.azure.com',
+       user: 'dbodoff@persuasion',
+      host: 'persuasion.postgres.database.azure.com',
       database: 'postgres',
-      password: 'Dell#123',
+      password: 'Bozo@2020',
       port: 5432,
     })
      
@@ -6065,10 +6065,10 @@ for (i = 0; i < coll.length; i++) {
         //2.
         const Pool = require('pg').Pool;
         const pool = new Pool({
-         user: 'mallik@tweetsreviewpg',
-        host: 'tweetsreviewpg.postgres.database.azure.com',
+         user: 'dbodoff@persuasion',
+        host: 'persuasion.postgres.database.azure.com',
         database: 'postgres',
-        password: 'Dell#123',
+        password: 'Bozo@2020',
         port: 5432,
       })
        
@@ -7768,10 +7768,10 @@ for (i = 0; i < coll.length; i++) {
             //2.
             const Pool = require('pg').Pool;
             const pool = new Pool({
-             user: 'mallik@tweetsreviewpg',
-            host: 'tweetsreviewpg.postgres.database.azure.com',
+             user: 'dbodoff@persuasion',
+            host: 'persuasion.postgres.database.azure.com',
             database: 'postgres',
-            password: 'Dell#123',
+            password: 'Bozo@2020',
             port: 5432,
           })
            
