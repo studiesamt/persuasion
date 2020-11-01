@@ -1,7 +1,7 @@
 var pgp = require("pg-promise")(/*options*/);
 
 function PostgresDBAdapter() {
-  var db = pgp(process.env.DATABASE_URL || "postgres://mallik:Dell#123@tweetsreviewpg.postgres.database.azure.com:5432/postgres");
+  var db = pgp(process.env.DATABASE_URL || "postgres://dbodoff:Bozo@2020@persuasion.postgres.database.azure.com:5432/postgres");
 
   function getObjectFromStorage(tableName, callback) {
     db.any("SELECT * FROM " + tableName).then(function(result) {
