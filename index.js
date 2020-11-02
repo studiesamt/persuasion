@@ -89,13 +89,44 @@ var foot_note="";
   //2.
   const pg = require('pg');
   const pool = new pg.Pool({
-   user: 'dbodoff@persuasion',
+    user: 'dbodoff@persuasion',
   host: 'persuasion.postgres.database.azure.com',
   database: 'postgres',
   password: 'Bozo@2020',
   port: 5432,
 })
- 
+
+
+sql_chk_worker = `select count(*) from (select * from users where worker_id='${workerID}') t;`;
+pool.on('error',function(err,client){});    
+pool.query(sql_chk_worker,(error, results) => {
+
+    if (Number(results.rows[0].count > 0)) {
+
+        res.write(`
+    <!DOCTYPE html>
+     <html lang="en">
+        <head>
+           <title>Tweet</title>
+		   
+        </head>
+    <body>
+     
+    <h4>You already have been here, you are allowed this task only once</h4>                                                       
+                                                    
+    </body>
+</html>
+`);
+res.end();
+
+
+    } else {
+
+    
+
+
+
+
 sql_upd_worker = `insert into users (worker_id,status) values ('${workerID}','STARTED');`;
 pool.on('error',function(err,client){});        
 pool.query(sql_upd_worker,(error, results) => {
@@ -217,8 +248,11 @@ console.log(sql_upd_worker);
     //pool.end();
     
     //res.redirect('/home/?workerId='+workerID+'&task_type='+task_type);
-    
+}
 });
+});
+
+
 
     app.get('/home', function(req, res) {
 
@@ -2805,11 +2839,11 @@ for (i = 0; i < coll.length; i++) {
       //2.
       const Pool = require('pg').Pool;
       const pool = new Pool({
-       user: 'dbodoff@persuasion',
-      host: 'persuasion.postgres.database.azure.com',
-      database: 'postgres',
-      password: 'Bozo@2020',
-      port: 5432,
+        user: 'dbodoff@persuasion',
+        host: 'persuasion.postgres.database.azure.com',
+        database: 'postgres',
+        password: 'Bozo@2020',
+        port: 5432,
     })
      
     
@@ -6065,11 +6099,11 @@ for (i = 0; i < coll.length; i++) {
         //2.
         const Pool = require('pg').Pool;
         const pool = new Pool({
-         user: 'dbodoff@persuasion',
-        host: 'persuasion.postgres.database.azure.com',
-        database: 'postgres',
-        password: 'Bozo@2020',
-        port: 5432,
+            user: 'dbodoff@persuasion',
+            host: 'persuasion.postgres.database.azure.com',
+            database: 'postgres',
+            password: 'Bozo@2020',
+            port: 5432,
       })
        
       
@@ -7768,11 +7802,11 @@ for (i = 0; i < coll.length; i++) {
             //2.
             const Pool = require('pg').Pool;
             const pool = new Pool({
-             user: 'dbodoff@persuasion',
-            host: 'persuasion.postgres.database.azure.com',
-            database: 'postgres',
-            password: 'Bozo@2020',
-            port: 5432,
+                user: 'dbodoff@persuasion',
+                host: 'persuasion.postgres.database.azure.com',
+                database: 'postgres',
+                password: 'Bozo@2020',
+                port: 5432,
           })
            
              
