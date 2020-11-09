@@ -13,20 +13,15 @@ AWS.config = {
     "sslEnabled": 'true'
 };
 
-var endpoint = 'https://mturk-requester-sandbox.us-east-1.amazonaws.com';
+var endpoint = 'https://mturk-requester.us-east-1.amazonaws.com';
 
 var mturk = new AWS.MTurk({ endpoint: endpoint, region: 'us-east-1' });
 
-
-var params = {
-  HITId: '31J7RYECZKPRFR0RW84CN10PBCY1L4', /* required */
-};
-
-
-mturk.deleteHIT(params, (err, data) => {
-  if (err) {
-    console.warn("Error making the mTurk API call:", err);
-  } else {
-      console.warn("success response: ", data);
-  }
- })
+mturk.listHITs((err, data) => {
+    if (err) {
+      console.warn("Error making the mTurk API call:", err);
+    } else {
+        console.warn("hits found: ", data.HITs);
+        const hits = data.HITs;
+    }
+   })

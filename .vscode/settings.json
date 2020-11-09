@@ -1,15 +1,6 @@
 {
-    "sqltools.connections": [
-        {
-            "connectString": "host=tweetsreviewpg.postgres.database.azure.com port=5432 dbname=tweetsreviewpg user=mallik@tweetsreviewpg password=Dell#123 sslmode=requirehost=tweetsreviewpg.postgres.database.azure.com port=5432 dbname=tweetsreviewpg user=mallik@tweetsreviewpg password=Dell#123 sslmode=require",
-            "database": "tweetsreviewpg",
-            "driver": "PostgreSQL",
-            "name": "tweetreview",
-            "password": "Dell#123",
-            "port": 5432,
-            "previewLimit": 50,
-            "server": "tweetsreviewpg.postgres.database.azure.comtweetsreviewpg.postgres.database.azure.com",
-            "username": "mallik@tweetsreviewpg"
-        }
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
     ]
 }
