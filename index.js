@@ -288,7 +288,7 @@ console.log(sql_upd_worker);
   } else 
    {
     link_to_main='';
-    btn_message="Read and Agree Continue to Practice";
+    btn_message="Read All Intstructions to Continue to Practice";
    }
 
     if( Number(mm) == 2 ) {
@@ -1272,7 +1272,7 @@ console.log(sql_upd_worker);
                                                 <div id="j3louinlineContent-gridWrapper" data-mesh-internal="true">
                                                     <div id="j3louinlineContent-gridContainer" data-mesh-internal="true">
                                                         <div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfwzlis9">
-                                                            <h6 class="font_6">Instruction</h6>
+                                                            <h6 class="font_6">Instructions</h6>
                                                         </div>
                                                         <div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:42px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfwzlis72">
                                                             
@@ -1310,7 +1310,7 @@ console.log(sql_upd_worker);
                                                             <h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a target="_self"  onclick="href='/home/?task_type='+'`+mm+`'+'&workerId='+'`+workerID+``+clkstatus+`'+'&report=true&block='+'`+block+`'"><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">How to report</span></span></span></span></a>
 															<div >`+val_report+`</div></span></h2>
                                                         </div>
-                                                        <div id="comp-kfwzlitn1" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="270" data-height="38" style="top:;bottom:;left:;right:;width:270px;height:38px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" onclick="`+link_to_main+`" id="comp-kfwzlitn1link" class="g-transparent-a b1link"><span id="comp-kfwzlitn1label" class="b1label">`+btn_message+`</span></a></div>
+                                                        <div id="comp-kfwzlitn1" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="270" data-height="38" style="top:;bottom:;left:;right:;width:350px;height:38px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" onclick="`+link_to_main+`" id="comp-kfwzlitn1link" class="g-transparent-a b1link"><span id="comp-kfwzlitn1label" class="b1label">`+btn_message+`</span></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2531,7 +2531,7 @@ console.log(sql_upd_worker);
                                                 <div id="j3louinlineContent-gridWrapper" data-mesh-internal="true">
                                                     <div id="j3louinlineContent-gridContainer" data-mesh-internal="true">
                                                         <div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfwzlis9">
-                                                            <h6 class="font_6">Instruction</h6>
+                                                            <h6 class="font_6">Instructions</h6>
                                                         </div>
                                                         <div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:42px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfwzlis72">
                                                             
