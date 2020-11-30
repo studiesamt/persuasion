@@ -3006,6 +3006,7 @@ for (i = 0; i < coll.length; i++) {
             
             res.write(`
 
+
             <!DOCTYPE html>
             <html lang="en">
                   <head>
@@ -4094,9 +4095,9 @@ for (i = 0; i < coll.length; i++) {
             
             #comp-kfb3m2tz {
                 position: relative;
-                margin: 0px 0px 10 calc((100% - 980px) * 0.5);
-                left: 257px;
-                grid-area: 4 / 1 / 11 / 2;
+                margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+                left: 55px;
+                grid-area: 8 / 1 / 11 / 2;
                 justify-self: start;
                 align-self: start;
             }
@@ -4142,7 +4143,7 @@ for (i = 0; i < coll.length; i++) {
                 position: relative;
                 margin: 0px 0px 0 calc((100% - 980px) * 0.5);
                 left: 30px;
-                grid-area: 14 / 1 / 21 / 2;
+                grid-area: 10 / 1 / 21 / 2;
                 justify-self: start;
                 align-self: start;
             }
@@ -4528,7 +4529,6 @@ for (i = 0; i < coll.length; i++) {
             
             </body>
             </html>
-   
 
          `);
          
@@ -5756,7 +5756,7 @@ for (i = 0; i < coll.length; i++) {
          #comp-kfb3m2tz {
              position: relative;
              margin: 0px 0px 10 calc((100% - 980px) * 0.5);
-             left: 257px;
+             left: 235px;
              grid-area: 4 / 1 / 11 / 2;
              justify-self: start;
              align-self: start;
@@ -7526,8 +7526,8 @@ for (i = 0; i < coll.length; i++) {
            #comp-kfb3m2tz {
              position: relative;
              margin: 0px 0px 10 calc((100% - 980px) * 0.5);
-             left: 257px;
-             grid-area: 4 / 1 / 11 / 2;
+             left: 235px;
+             grid-area: 5 / 1 / 11 / 2;
              justify-self: start;
              align-self: start;
          }
