@@ -1245,9 +1245,9 @@ console.log(sql_upd_worker);
                                                     }
                                                     #comp-kfwzlith {
                                                     position: relative;
-                                                    margin: 0px 0px 44px calc((100% - 980px) * 0.5);
-                                                    left: 148px;
-                                                    grid-area: 10 / 1 / 11 / 2;
+                                                    margin: 0px 0px 0px calc((100% - 980px) * 0.5);
+                                                    left: 139px;
+                                                    grid-area: 8 / 1 / 11 / 2;
                                                     justify-self: start;
                                                     align-self: start;
                                                     }
