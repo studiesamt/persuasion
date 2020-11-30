@@ -2958,7 +2958,16 @@ for (i = 0; i < coll.length; i++) {
                pool.query(sql_msc3,(error3, results3) => {
                     var alert =require('alert');
                     const data = results3.rows;
-                    foot_note1="Please answer all the tweets! If there are no tweet number in this alert then you have not answered any tweet yet. Tweets IDs answered are "+R.pluck('question', data); 
+                    var a = R.pluck('question', data),
+                    count = fin_val_drpdwn;
+                    var missing = new Array();
+
+                    for (var i = 1; i <= count; i++) {
+                    if (a.indexOf(i) == -1) {
+                        missing.push(i);
+                    }
+                    }
+                    foot_note1="Please answer all the tweets! If there are no tweet number in this alert then you have answered all the tweets. Tweets IDs not answered are "+missing; 
                     res.write(`
                     <!DOCTYPE html>
                      <html lang="en">
@@ -6281,8 +6290,16 @@ for (i = 0; i < coll.length; i++) {
                   pool.query(sql_msc3,(error3, results3) => {
                        var alert =require('alert');
                        const data = results3.rows;
-                       
-                       foot_note1 ="Please answer all the tweets! If there are no tweet number in this alert then you have not answered any tweet yet. Tweets IDs answered are "+R.pluck('question', data);
+                       var a = R.pluck('question', data),
+                    count = fin_val_drpdwn;
+                    var missing = new Array();
+
+                    for (var i = 1; i <= count; i++) {
+                    if (a.indexOf(i) == -1) {
+                        missing.push(i);
+                    }
+                    }
+                    foot_note1="Please answer all the tweets! If there are no tweet number in this alert then you have answered all the tweets. Tweets IDs not answered are "+missing; 
                        /*data.forEach(row => {
                            alert(`question: ${row.question}`);
                        })*/
