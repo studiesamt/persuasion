@@ -46,7 +46,7 @@ var foot_note="";
  app.get('/', function(req, res,next) {
 
     var reqQueryObject = req.query 
-    console.log(req.url);
+    //console.log(req.url);
     workerID = req.query.workerId;
 
     //fs.readFile('practice.JPG', function (err, content) {
@@ -84,7 +84,7 @@ var foot_note="";
 
 
     var reqQueryObject = req.query;
-    console.log(req.url);
+    //console.log(req.url);
     workerID = req.query.workerId; // returns "12354411"
     task=parseInt(req.query.task_type);
     
@@ -135,18 +135,18 @@ pool.query(sql_upd_worker,(error, results) => {
     //console.log(error, res);
 //pool.end();
 });
-console.log(sql_upd_worker);
+//console.log(sql_upd_worker);
         sql_find_type =  `select * from blocks where (COALESCE(gen,0) + COALESCE(emot,0) +COALESCE(cog,0) + COALESCE(norm,0)) < 8 ORDER BY block ASC LIMIT 1;`;
-        console.log(sql_find_type);
+        //console.log(sql_find_type);
 
   pool.on('error',function(err,client){
       //console.log(err);
   });
   pool.query(sql_find_type,(error, results) => {
-     console.log("results.rows[0].gen "+results.rows[0].gen);
-     console.log("results.rows[0].emot "+results.rows[0].emot);
-     console.log("results.rows[0].cog "+results.rows[0].cog);
-     console.log("results.rows[0].norm "+results.rows[0].norm);
+     //console.log("results.rows[0].gen "+results.rows[0].gen);
+     //console.log("results.rows[0].emot "+results.rows[0].emot);
+     //console.log("results.rows[0].cog "+results.rows[0].cog);
+     //console.log("results.rows[0].norm "+results.rows[0].norm);
      
      var kk1=2;
      var new_val=0;
@@ -158,7 +158,7 @@ console.log(sql_upd_worker);
 
                 sql_upd_usr =  `update users SET (block,task_type)=(${results.rows[0].block},4) where worker_id='${workerID}';`;
                 //sql_upd_usr =  `update users SET (block,task_type)=(${results.rows[0].block},4) where worker_id='${workerID}';`;
-                console.log(sql_upd_usr);
+                //console.log(sql_upd_usr);
                 pool.on('error',function(err,client){});
                 pool.query(sql_upd_usr,(error, results) => {
                     //console.log(error, res);
@@ -174,12 +174,12 @@ console.log(sql_upd_worker);
                 
                     res.redirect('/home/?workerId='+workerID+'&task_type=4&block='+block);
                 });
-                console.log(sql_qury);
+               // console.log(sql_qury);
                 
     
             }else {
                 sql_upd_usr =  `update users SET (block,task_type)=(${results.rows[0].block},3) where worker_id='${workerID}';`;
-                console.log(sql_upd_usr);
+                //console.log(sql_upd_usr);
                 pool.on('error',function(err,client){});
                  pool.query(sql_upd_usr,(error, results) => {
                     //console.log(error, res);
@@ -201,7 +201,7 @@ console.log(sql_upd_worker);
     
         } else {
             sql_upd_usr =  `update users SET (block,task_type)=(${results.rows[0].block},2) where worker_id='${workerID}';`;
-            console.log(sql_upd_usr);
+            //console.log(sql_upd_usr);
             pool.on('error',function(err,client){}); 
             pool.query(sql_upd_usr,(error, results) => {
                 //console.log(error, res);
@@ -217,14 +217,14 @@ console.log(sql_upd_worker);
                     
                     res.redirect('/home/?workerId='+workerID+'&task_type=2&block='+block);
                 });
-                console.log(sql_qury);
+                //console.log(sql_qury);
                 
             }
 
 
    } else {
         sql_upd_usr =  `update users SET (block,task_type)=(${results.rows[0].block},1) where worker_id='${workerID}';`;
-        console.log(sql_upd_usr);
+        //console.log(sql_upd_usr);
         pool.on('error',function(err,client){});
          pool.query(sql_upd_usr,(error, results) => {
             //console.log(error, res);
@@ -240,7 +240,7 @@ console.log(sql_upd_worker);
            
             res.redirect('/home/?workerId='+workerID+'&task_type=1&block='+block);
          });
-         console.log(sql_qury);
+         //console.log(sql_qury);
          
         }
      
@@ -259,7 +259,7 @@ console.log(sql_upd_worker);
     app.get('/home', function(req, res) {
 
     var reqQueryObject = req.query 
-    console.log(req.url);
+    //console.log(req.url);
     workerID = req.query.workerId;
     def=req.query.def;
     exmp=req.query.exmp;
@@ -283,7 +283,7 @@ console.log(sql_upd_worker);
   if ((def === "true") && (vtask === "true") && (exmp === "true") && (trig === "true") && (ask === "true") && (cons === "true") && (report === "true")) 
   {
      link_to_main="href='/practice/?task_type="+mm+"&workerId="+workerID+"&missionVal=0&missionId=1&block="+block+"'";
-      console.log("link to main task from instruction "+link_to_main);
+      //console.log("link to main task from instruction "+link_to_main);
      btn_message="Continue to Practice";
   } else 
    {
@@ -1614,7 +1614,7 @@ console.log(sql_upd_worker);
    app.get('/home1', function(req, res) {
 
     var reqQueryObject = req.query 
-    console.log(req.url);
+    //console.log(req.url);
     workerID = req.query.workerId; // returns "1235441
     val_def="";
     val_task="";
@@ -2895,8 +2895,8 @@ for (i = 0; i < coll.length; i++) {
         //mission_val=parseInt(req.query.missionVal);
         mission_id=parseInt(req.query.missionId);
         mission_id1=parseInt(req.query.missionId);
-        console.log("request URL "+req.url);
-       console.log("request params "+mission_id1);
+        // console.log("request URL "+req.url);
+       //console.log("request params "+mission_id1);
        
        var blockID='1';
       var d = Date()
@@ -2933,14 +2933,14 @@ for (i = 0; i < coll.length; i++) {
        
 
        sql_chy3 = `select count(*) from (select distinct question from session where worker_id='${workerID}') t;`;
-       console.log(sql_chy3);
+       //console.log(sql_chy3);
        pool.on('error',function(err,client){});
        pool.query(sql_chy3,(error, results) => {
         if (error) {
             console.error("error to check "+error);
         }
        
-        console.log(results.rows[0].count);
+        //console.log(results.rows[0].count);
         mission_val=results.rows[0].count;
 
        sql_chy = `select * from practice_data where mission_id=${task};`;
@@ -2954,7 +2954,7 @@ for (i = 0; i < coll.length; i++) {
             if (Number(results.rows.length) == Number(mission_id) && mission_state === "fwd" && Number(mission_val) < Number(results.rows.length)) 
             {
                 sql_msc3 = `select distinct (coalesce(question, 0)) as question from session where worker_id='${workerID}' and status='Practice';`;
-                console.log(sql_msc3);
+                //console.log(sql_msc3);
                pool.query(sql_msc3,(error3, results3) => {
                     var alert =require('alert');
                     const data = results3.rows;
@@ -4540,24 +4540,24 @@ for (i = 0; i < coll.length; i++) {
             yes_val="false";
             no_val="false";
             sql =  `select * from practice_data where question_number = ${mission_id} and mission_id=${task};`;
-            console.log(sql);
+            //console.log(sql);
              pool.on('error',function(err,client){});
     
       pool.query(sql,(error, results) => {
         
          tweet_text=results.rows[0].tweet_text;
-         console.log("the tweet text is "+tweet_text)
+        // console.log("the tweet text is "+tweet_text)
          //max_questions=results.rowcount;
          //Console.log("max_questions "+max_questions);
          Answer=results.rows[0].answer;
-         console.log("Answer "+Answer);
+        // console.log("Answer "+Answer);
          Correct_text=results.rows[0].correct_text;
-         console.log("Correct_text "+Correct_text);
+        // console.log("Correct_text "+Correct_text);
          Wrong_text=results.rows[0].wrong_text;
-        console.log("Wrong_text "+Wrong_text);
-      console.log("mission id  "+mission_id);
+       // console.log("Wrong_text "+Wrong_text);
+      //console.log("mission id  "+mission_id);
       
-         console.log ("ans_n and ans_y "+ans_n+" "+ans_y);
+        // console.log ("ans_n and ans_y "+ans_n+" "+ans_y);
 
          if ( mission_state === "msc") {
 
@@ -4594,7 +4594,7 @@ for (i = 0; i < coll.length; i++) {
              ++mission_val;
              sql_chy1 = `insert into session values ('${workerID}','Practice',${block},${task},${mission_id},'1');`;
              pool.query(sql_chy1,(error, results) => {});
-             console.log(sql_chy1);
+             //console.log(sql_chy1);
              yes_val="true";
    
          } 
@@ -4615,14 +4615,14 @@ for (i = 0; i < coll.length; i++) {
    
              Mrinal=Correct_text;
              foot_note="Does the tweet text answer to the definition?";
-             console.log("i am inside ans_n true");
+             //console.log("i am inside ans_n true");
              sbmtval="Go To Next";
              sbmtval_efct='false';
              sbmtlnk="fwd";
              ++mission_val;
              sql_chy1 = `insert into session values ('${workerID}','Practice',${block},${task},${mission_id},'1');`;
              pool.query(sql_chy1,(error, results) => {});
-             console.log(sql_chy1);
+             //console.log(sql_chy1);
              no_val="true";
          } 
          if ( ans_n.toString() !== Answer.toString() && ans_n.toString() === "NO"){
@@ -4644,8 +4644,8 @@ for (i = 0; i < coll.length; i++) {
          Mrinal="";
    
      }
-     console.log("Value of Mrinal"+Mrinal);
-      console.log("answers"+ans_y+":"+ans_n);
+    // console.log("Value of Mrinal"+Mrinal);
+     // console.log("answers"+ans_y+":"+ans_n);
       var number=fin_val_drpdwn;
     var optionList = "";
     for (var x=1; x<=number; x++) {
@@ -6223,11 +6223,11 @@ for (i = 0; i < coll.length; i++) {
           block=parseInt(req.query.block);
           //mission_val=parseInt(req.query.missionVal);
           mission_id1=parseInt(req.query.missionId);
-          console.log("request URL "+req.url);
-         console.log("request params "+mission_id1);
+          //console.log("request URL "+req.url);
+         //console.log("request params "+mission_id1);
          if (typeof mission_id1 !== 'number') {
             mission_id=mission_id1;
-          console.log("This is not number "+mission_id1);
+          //console.log("This is not number "+mission_id1);
               }
          var blockID='1';
         var d = Date()
@@ -6264,14 +6264,14 @@ for (i = 0; i < coll.length; i++) {
          
   
          sql_chy3 = `select count(*) from (select distinct question from session where worker_id='${workerID}' and status='Main Task') t;`;
-         console.log(sql_chy3);
+         //console.log(sql_chy3);
          pool.on('error',function(err,client){});
          pool.query(sql_chy3,(error, results) => {
           if (error) {
               console.error("error to check "+error);
           }
          
-          console.log(results.rows[0].count);
+         // console.log(results.rows[0].count);
           mission_val=results.rows[0].count;
   
          //sql_chy = `select * from tweet where mission_id=${task} and block_id=${block};`;
@@ -6279,14 +6279,14 @@ for (i = 0; i < coll.length; i++) {
          pool.on('error',function(err,client){});
          pool.query(sql_chy,(error, results) => {
             fin_val_drpdwn=Number(results.rows.length);
-            console.log("final number of questions : "+results.rows.length);
+            //console.log("final number of questions : "+results.rows.length);
             if (Number(results.rows.length) <= Number(mission_id))
             {
                mission_id=results.rows.length;
                if (Number(results.rows.length) == Number(mission_id) && mission_state === "fwd" && Number(mission_val) < Number(results.rows.length)) 
                {
                    sql_msc3 = `select distinct (coalesce(question, 0)) as question from session where worker_id='${workerID}' and status='Main Task';`;
-                   console.log(sql_msc3);
+                   //console.log(sql_msc3);
                   pool.query(sql_msc3,(error3, results3) => {
                        var alert =require('alert');
                        const data = results3.rows;
@@ -6356,24 +6356,24 @@ for (i = 0; i < coll.length; i++) {
       
               //sql =  `select * from tweet where question_number = ${mission_id} and mission_id=${task} and block_id=${block};`;
               sql =  `select * from tweet where question_number = ${mission_id} and block_id=${block};`;
-              console.log(sql);
+             // console.log(sql);
                pool.on('error',function(err,client){});
       
         pool.query(sql,(error, results) => {
           
            tweet_text=results.rows[0].tweet_text;
-           console.log("the tweet text is "+tweet_text)
+          // console.log("the tweet text is "+tweet_text)
            //max_questions=results.rowcount;
            //Console.log("max_questions "+max_questions);
            Answer=results.rows[0].answer;
-           console.log("Answer "+Answer);
+           //console.log("Answer "+Answer);
            Correct_text=results.rows[0].correct_text;
-           console.log("Correct_text "+Correct_text);
+           //console.log("Correct_text "+Correct_text);
            Wrong_text=results.rows[0].wrong_text;
-          console.log("Wrong_text "+Wrong_text);
-        console.log("mission id  "+mission_id);
+         // console.log("Wrong_text "+Wrong_text);
+        //console.log("mission id  "+mission_id);
         
-           console.log ("ans_n and ans_y "+ans_n+" "+ans_y);
+           //console.log ("ans_n and ans_y "+ans_n+" "+ans_y);
   
         if ( mission_state === "chk") {
   
@@ -6405,7 +6405,7 @@ for (i = 0; i < coll.length; i++) {
 
 
                pool.query(sql_chy1,(error, results) => {});
-               console.log(sql_chy1);
+               //console.log(sql_chy1);
       
             
            
@@ -6418,8 +6418,8 @@ for (i = 0; i < coll.length; i++) {
            Mrinal="";
      
        }
-       console.log("Value of Mrinal"+Mrinal);
-        console.log("answers"+ans_y+":"+ans_n);
+       //console.log("Value of Mrinal"+Mrinal);
+        //console.log("answers"+ans_y+":"+ans_n);
         var number=fin_val_drpdwn;
     var optionList = "";
     for (var x=1; x<=number; x++) {
@@ -8052,5 +8052,5 @@ app.use(express.static('public'));
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+  //console.log(`Listening on port ${PORT}`);
 });
