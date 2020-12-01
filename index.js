@@ -2979,7 +2979,7 @@ for (i = 0; i < coll.length; i++) {
                     <a target="_self" onclick=href='?ans_n=NO'+'&ans_y='+'&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state=chk'">
                     
                     </a>
-                    <h6>`+foot_note1+`</h6>                                                       
+                    <h4>`+foot_note1+`</h4>                                                       
                                                                     
                     </body>
                 </html>
