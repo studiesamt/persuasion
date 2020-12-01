@@ -6314,7 +6314,7 @@ for (i = 0; i < coll.length; i++) {
                     <a target="_self" onclick="href='?&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state='+'`+sbmtlnk+`'">
                     
                     </a>
-                    <h6>`+foot_note1+`</h6>                                                       
+                    <h4>`+foot_note1+`</h4>                                                       
                                                                     
                     </body>
                 </html>
