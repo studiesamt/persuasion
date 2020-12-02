@@ -5754,12 +5754,12 @@ for (i = 0; i < coll.length; i++) {
          }
          
          #comp-kfb3m2tz {
-            position: relative;
-            margin: 0px 0px 0 calc((100% - 980px) * 0.5);
-            left: 55px;
-            grid-area: 4 / 1 / 11 / 2;
-            justify-self: start;
-            align-self: start;
+             position: relative;
+             margin: 0px 0px 10 calc((100% - 980px) * 0.5);
+             left: 235px;
+             grid-area: 3 / 1 / 11 / 2;
+             justify-self: start;
+             align-self: start;
          }
          
          #comp-kfpyrzoh {
@@ -7525,12 +7525,12 @@ for (i = 0; i < coll.length; i++) {
            }
            
            #comp-kfb3m2tz {
-            position: relative;
-            margin: 0px 0px 0 calc((100% - 980px) * 0.5);
-            left: 55px;
-            grid-area: 4 / 1 / 11 / 2;
-            justify-self: start;
-            align-self: start;
+             position: relative;
+             margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+             left: 55px;
+             grid-area: 7 / 1 / 14 / 1;
+             justify-self: start;
+             align-self: start;
          }
            
            #comp-kfpyrzoh {
