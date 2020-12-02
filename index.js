@@ -5756,7 +5756,7 @@ for (i = 0; i < coll.length; i++) {
          #comp-kfb3m2tz {
              position: relative;
              margin: 0px 0px 10 calc((100% - 980px) * 0.5);
-             left: 235px;
+             left: 55px;
              grid-area: 3 / 1 / 11 / 2;
              justify-self: start;
              align-self: start;
