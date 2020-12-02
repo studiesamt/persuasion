@@ -6427,6 +6427,7 @@ for (i = 0; i < coll.length; i++) {
     }
            res.write(`
            
+ 
            <!DOCTYPE html>
            <html lang="en">
                  <head>
@@ -7525,9 +7526,9 @@ for (i = 0; i < coll.length; i++) {
            
            #comp-kfb3m2tz {
              position: relative;
-             margin: 0px 0px 10 calc((100% - 980px) * 0.5);
-             left: 235px;
-             grid-area: 5 / 1 / 11 / 2;
+             margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+             left: 85px;
+             grid-area: 7 / 1 / 14 / 1;
              justify-self: start;
              align-self: start;
          }
@@ -7670,9 +7671,9 @@ for (i = 0; i < coll.length; i++) {
            
            #comp-kfvfzr63 {
                position: relative;
-               margin: 1px 0px -1px calc((100% - 980px) * 0.5);
+               margin: 0px 0px 0px calc((100% - 980px) * 0.5);
                left: 419px;
-               grid-area: 5 / 1 / 9 / 2;
+               grid-area: 7 / 1 / 12 / 1;
                justify-self: start;
                align-self: start;
            }
@@ -7698,35 +7699,35 @@ for (i = 0; i < coll.length; i++) {
            #comp-kf8s6j8x {
                position: relative;
                margin: 0px 0px 0 calc((100% - 980px) * 0.5);
-               left: 10px;
-               grid-area: 22 / 1 / 23 / 2;
+               left: 22px;
+               grid-area: 17 / 1 / 17 / 1;
                justify-self: start;
                align-self: start;
            }
            
            #comp-kfvfxgp6 {
                position: relative;
-               margin: 0px 0px 8px calc((100% - 980px) * 0.5);
+               margin: 0px 0px 0px calc((100% - 980px) * 0.5);
                left: 40px;
-               grid-area: 24 / 1 / 25 / 2;
+               grid-area: 18 / 1 / 25 / 2;
                justify-self: start;
                align-self: start;
            }
            
            #comp-kfvfxk97 {
                position: relative;
-               margin: 0px 0px 8px calc((100% - 980px) * 0.5);
+               margin: 0px 0px 0px calc((100% - 980px) * 0.5);
                left: 109px;
-               grid-area: 24 / 1 / 25 / 2;
+               grid-area: 18 / 1 / 25 / 2;
                justify-self: start;
                align-self: start;
            }
            
            #comp-kf8sfbtj {
                position: relative;
-               margin: 0px 0px 15px calc((100% - 980px) * 0.5);
+               margin: 0px 0px 0px calc((100% - 980px) * 0.5);
                left: 430px;
-               grid-area: 23 / 1 / 47 / 2;
+               grid-area: 17/ 1 / 47 / 2;
                justify-self: start;
                align-self: start;
            }
@@ -7734,8 +7735,8 @@ for (i = 0; i < coll.length; i++) {
            #comp-kfpx9ii3 {
                position: relative;
                margin: 0px 0px 0 calc((100% - 980px) * 0.5);
-               left: 109px;
-               grid-area: 47 / 1 / 48 / 2;
+               left: 500px;
+               grid-area: 19 / 1 / 48 / 2;
                justify-self: start;
                align-self: start;
            }
@@ -7754,9 +7755,9 @@ for (i = 0; i < coll.length; i++) {
            
            #rke15inlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                pointer-events: auto;
-           }</style><div id="rke15inlineContent-gridWrapper" data-mesh-internal="true"><div id="rke15inlineContent-gridContainer" data-mesh-internal="true"><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8ryq20"><h6 class="font_6">Main Task</h6></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:591px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8rw8tn"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;"><span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;">Persuasion is the attempt to influence someone's belief,</span></span></span></span></span></p>
+           }</style><div id="rke15inlineContent-gridWrapper" data-mesh-internal="true"><div id="rke15inlineContent-gridContainer" data-mesh-internal="true"><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ryq20"><h6 class="font_6">Main Task</h6></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:601px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8rw8tn"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;"><span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"></BR>Persuasion is the attempt to influence someone's belief,attitude, and intentions.</span></span></span></span></span></p>
            
-           <p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"><span style="font-weight:bold;">attitude, and intentions.</span> </span></span></span></span></p></div><div id="comp-kfb3ktl2" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?&workerId='+'`+workerID+`'+'&missionVal='+'`+mission_val+`'+'&block='+'`+block+`'+'&missionId='+'`+mission_id+`'+'&task_type='+'`+task+`'+'&mission_state=fwd'+'&ans_n='+'&ans_y='" id="comp-kfb3ktl2link" class="b4link"><span id="comp-kfb3ktl2label" class="b4label"></span></a></div><div id="comp-kfb3m2tz" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a  id="comp-kfb3m2tzlink" class="b4link"><span id="comp-kfb3m2tzlabel" class="b4label">Tweet ID: `+fin_q+`</span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:42px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfpyrzoh"></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tjsl3"><h6 class="font_6">Introduction</h6></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tp69s"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Definition {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tkx3g"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank"><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;"></BR>About the t</span></span></span><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">ask {link will open in new tab}</span></span></span></span></a></span></h2></div><div class="style-kf8s5xvn_left-direction style-kf8s5xvn" style="top:;bottom:;left:;right:;width:469px;height:210px;position:" data-state="valid" id="comp-kf8s5xt9"><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kf8s5xt9textarea" id="comp-kf8s5xt9label" class="style-kf8s5xvnlabel"></label><textarea style="padding-left:16px;padding-right:10px" placeholder="" readonly="" class="has-custom-focus style-kf8s5xvntextarea" id="comp-kf8s5xt9textarea">`+tweet_text+`</textarea></div><div id="comp-kf8sqbal-rotated-wrapper" data-mesh-internal="true"><div id="comp-kf8sqbal" style="top:;bottom:;left:;right:;width:480px;height:28px;position:" data-angle="270"><button type="button" aria-label="Introduction" class="stylablebutton643855516__root style-kf8sqbcc__root" style="position:absolute" id="comp-kf8sqbal-inner-button"><div class="stylablebutton643855516__container"><span class="stylablebutton643855516__label">Introduction</span><span class="stylablebutton643855516__icon" aria-hidden="true"><div><svg data-bbox="13.05 2.55 33.878 54.8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+         </div><div id="comp-kfb3ktl2" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?&workerId='+'`+workerID+`'+'&missionVal='+'`+mission_val+`'+'&block='+'`+block+`'+'&missionId='+'`+mission_id+`'+'&task_type='+'`+task+`'+'&mission_state=fwd'+'&ans_n='+'&ans_y='" id="comp-kfb3ktl2link" class="b4link"><span id="comp-kfb3ktl2label" class="b4label"></span></a></div><div id="comp-kfb3m2tz" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a  id="comp-kfb3m2tzlink" class="b4link"><span id="comp-kfb3m2tzlabel" class="b4label">Tweet ID: `+fin_q+`</span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:42px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfpyrzoh"></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:310px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tjsl3"><h6 class="font_6">Introduction</h6></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tp69s"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Definition {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tkx3g"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank"><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;"></BR>About the t</span></span></span><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">ask {link will open in new tab}</span></span></span></span></a></span></h2></div><div class="style-kf8s5xvn_left-direction style-kf8s5xvn" style="top:;bottom:;left:;right:;width:469px;height:110px;position:" data-state="valid" id="comp-kf8s5xt9"><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kf8s5xt9textarea" id="comp-kf8s5xt9label" class="style-kf8s5xvnlabel"></label><textarea style="padding-left:16px;padding-right:10px" placeholder="" readonly="" class="has-custom-focus style-kf8s5xvntextarea" id="comp-kf8s5xt9textarea">`+tweet_text+`</textarea></div><div id="comp-kf8sqbal-rotated-wrapper" data-mesh-internal="true"><div id="comp-kf8sqbal" style="top:;bottom:;left:;right:;width:480px;height:28px;position:" data-angle="270"><button type="button" aria-label="Introduction" class="stylablebutton643855516__root style-kf8sqbcc__root" style="position:absolute" id="comp-kf8sqbal-inner-button"><div class="stylablebutton643855516__container"><span class="stylablebutton643855516__label">Introduction</span><span class="stylablebutton643855516__icon" aria-hidden="true"><div><svg data-bbox="13.05 2.55 33.878 54.8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
                <g>
                    <path d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z"/>
                </g>
@@ -7767,7 +7768,7 @@ for (i = 0; i < coll.length; i++) {
     `+optionList+`
 </select>
 <input type=button value="Go" onclick="goToNewPage()" />
-</form></span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:120px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfvg3jl5"><p class="font_10"><span style="font-weight:bold;"><span style="color:#000000;"></span></span></p></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tv20d"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">How to report {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:330px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8s6j8x"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;color:#000000;">`+foot_note+`<span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"></span></span></span></span></span></p></div><div id="comp-kfvfxgp6" data-align="center" data-disabled="`+yes_val+`" data-margin="0" data-should-use-flex="true" data-width="42" data-height="35" style="top:;bottom:;left:;right:;width:42px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?ans_y=YES'+'&ans_n='+'&workerId='+'`+workerID+`'+'&task_type='+'`+task+`'+'&block='+'`+block+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state=chk'" id="comp-kfvfxgp6link" class="g-transparent-a b1link"><span id="comp-kfvfxgp6label" class="b1label">Yes</span></a></div><div id="comp-kfvfxk97" data-align="center" data-disabled="`+no_val+`" data-margin="0" data-should-use-flex="true" data-width="40" data-height="35" style="top:;bottom:;left:;right:;width:40px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?ans_n=NO'+'&ans_y='+'&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state=chk'" id="comp-kfvfxk97link" class="g-transparent-a b1link"><span id="comp-kfvfxk97label" class="b1label">No</span></a></div><div id="comp-kf8sfbtj" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:131px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state='+'`+sbmtlnk+`'" id="comp-kf8sfbtjlink" class="g-transparent-a b1link"><span id="comp-kf8sfbtjlabel" class="b1label">`+sbmtval+`</span></a></div><div class="style-kf8s5xvn_right-direction" style="top:;bottom:;left:;right:;width:85px;height:35px;position:" data-state="valid" id="comp-kfpx9ii3"><div id="comp-kgscs5ki" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:31px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='/quittask/?&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state='+'`+sbmtlnk+`'" id="comp-kgscs5kilink" class="g-transparent-a b1link"><span id="comp-kgscs5kilabel" class="b1label">Quit Task</span></a></div><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kfpx9ii3textarea" id="comp-kfpx9ii3label" class="style-kf8s5xvnlabel"></label></div> </div></div></div></div></div></div></div></main><div id="soapAfterPagesContainer" class="page-without-sosp"><style id="soapAfterPagesContainer-mesh-styles">
+</form></span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:120px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kfvg3jl5"><p class="font_10"><span style="font-weight:bold;"><span style="color:#000000;"></span></span></p></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:auto;position:;pointer-events:none" class="txtNew" id="comp-kf8tv20d"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">How to report {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:330px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8s6j8x"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;color:#000000;">`+foot_note+`<span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"></span></span></span></span></span></p></div><div id="comp-kfvfxgp6" data-align="center" data-disabled="`+yes_val+`" data-margin="0" data-should-use-flex="true" data-width="42" data-height="35" style="top:;bottom:;left:;right:;width:42px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?ans_y=YES'+'&ans_n='+'&workerId='+'`+workerID+`'+'&task_type='+'`+task+`'+'&block='+'`+block+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state=chk'" id="comp-kfvfxgp6link" class="g-transparent-a b1link"><span id="comp-kfvfxgp6label" class="b1label">Yes</span></a></div><div id="comp-kfvfxk97" data-align="center" data-disabled="`+no_val+`" data-margin="0" data-should-use-flex="true" data-width="40" data-height="35" style="top:;bottom:;left:;right:;width:40px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?ans_n=NO'+'&ans_y='+'&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state=chk'" id="comp-kfvfxk97link" class="g-transparent-a b1link"><span id="comp-kfvfxk97label" class="b1label">No</span></a></div><div id="comp-kf8sfbtj" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:131px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='?&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state='+'`+sbmtlnk+`'" id="comp-kf8sfbtjlink" class="g-transparent-a b1link"><span id="comp-kf8sfbtjlabel" class="b1label">`+sbmtval+`</span></a></div><div class="style-kf8s5xvn_right-direction" style="top:;bottom:;left:;right:;width:85px;height:35px;position:" data-state="valid" id="comp-kfpx9ii3"><div id="comp-kgscs5ki" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:31px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" href="" onclick="href='/quittask/?&workerId='+'`+workerID+`'+'&block='+'`+block+`'+'&task_type='+'`+task+`'+'&missionVal='+'`+mission_val+`'+'&missionId='+'`+mission_id+`'+'&mission_state='+'`+sbmtlnk+`'" id="comp-kgscs5kilink" class="g-transparent-a b1link"><span id="comp-kgscs5kilabel" class="b1label">Quit Task</span></a></div><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kfpx9ii3textarea" id="comp-kfpx9ii3label" class="style-kf8s5xvnlabel"></label></div> </div></div></div></div></div></div></div></main><div id="soapAfterPagesContainer" class="page-without-sosp"><style id="soapAfterPagesContainer-mesh-styles">
            #soapAfterPagesContainerinlineContent {
                height: auto;
                width: 100%;
@@ -7962,8 +7963,7 @@ for (i = 0; i < coll.length; i++) {
            
            
            </body>
-           </html>
-           
+           </html>          
            
            
            
