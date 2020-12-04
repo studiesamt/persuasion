@@ -6259,7 +6259,7 @@ for (i = 0; i < coll.length; i++) {
              }
             } 
             if( mission_state === "msc") {
-              mission_id=mission_id1;
+              //mission_id=mission_id1;
               } 
 
               if( mission_state === "newreq") {
@@ -6303,9 +6303,12 @@ for (i = 0; i < coll.length; i++) {
          pool.query(sql_chy,(error, results) => {
             fin_val_drpdwn=Number(results.rows.length);
             //console.log("final number of questions : "+results.rows.length);
-            if (Number(results.rows.length) <= Number(mission_id))
+            if (Number(results.rows.length) < Number(mission_id))
             {
                mission_id=results.rows.length;
+               ++mission_val;
+               console.log("mission_val "+mission_val);
+               console.log("mission_id "+mission_id);
                if (Number(results.rows.length) == Number(mission_id) && mission_state === "newreq" && Number(mission_val) < Number(results.rows.length)) 
                {
                    sql_msc3 = `select distinct (coalesce(question, 0)) as question from session where worker_id='${workerID}' and status='Main Task';`;
@@ -6375,6 +6378,7 @@ for (i = 0; i < coll.length; i++) {
            
   
            } else {
+            
   
       
               //sql =  `select * from tweet where question_number = ${mission_id} and mission_id=${task} and block_id=${block};`;
