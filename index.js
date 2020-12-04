@@ -6305,7 +6305,7 @@ for (i = 0; i < coll.length; i++) {
             if (Number(results.rows.length) < Number(mission_id))
             {
                mission_id=results.rows.length;
-               if (Number(results.rows.length) == Number(mission_id) && mission_state === "fwd" || mission_state === "newreq" && Number(mission_val) < Number(results.rows.length)) 
+               if (Number(results.rows.length) == Number(mission_id) && mission_state === "newreq" && Number(mission_val) < Number(results.rows.length)) 
                {
                    sql_msc3 = `select distinct (coalesce(question, 0)) as question from session where worker_id='${workerID}' and status='Main Task';`;
                    //console.log(sql_msc3);
