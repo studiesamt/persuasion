@@ -6223,6 +6223,7 @@ for (i = 0; i < coll.length; i++) {
           block=parseInt(req.query.block);
           //mission_val=parseInt(req.query.missionVal);
           mission_id1=parseInt(req.query.missionId);
+          mission_id=parseInt(req.query.missionId);
           //console.log("request URL "+req.url);
          //console.log("request params "+mission_id1);
          if (typeof mission_id1 !== 'number') {
