@@ -4331,7 +4331,7 @@ for (i = 0; i < coll.length; i++) {
                     <path d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z"/>
                 </g>
             </svg>
-            </div></span></div></button></div></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tqtc5"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Example {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tred7"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Trigger Alert {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ts8az"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">What you should consider {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tsu8k"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">What you need to ask yourself {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ttbhv"></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ttcnw"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;"></span></span></span></span></a></span></h2></div><div id="comp-kfvfyyya" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfyyyalink" class="b4link"><span id="comp-kfvfyyyalabel" class="b4label"></span></a></div><div id="comp-kfvfz7nq" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfz7nqlink" class="b4link"><span id="comp-kfvfz7nqlabel" class="b4label"></span></a></div><div id="comp-kfvfzeot" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfzeotlink" class="b4link"><span id="comp-kfvfzeotlabel" class="b4label"></span></a></div><div id="comp-kfvfzr63" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfzr63link" class="b4link"><span id="comp-kfvfzr63label" class="b4label"></span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:20px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kfvg3jl5"><p class="font_10"><span style="font-weight:bold;"><span style="color:#000000;"></span></span></p></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tv20d"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">How to report {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:330px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8s6j8x"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;color:#000000;">`+foot_note+`<span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"></span></span></span></span></span></p></div><div id="comp-kfvfxgp6" data-align="center" data-disabled="true" data-margin="0" data-should-use-flex="true" data-width="42" data-height="35" style="top:;bottom:;left:;right:;width:42px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfxgp6link" class="g-transparent-a b1link"><span id="comp-kfvfxgp6label" class="b1label">Yes</span></a></div><div id="comp-kfvfxk97" data-align="center" data-disabled="true" data-margin="0" data-should-use-flex="true" data-width="40" data-height="35" style="top:;bottom:;left:;right:;width:40px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfxk97link" class="g-transparent-a b1link"><span id="comp-kfvfxk97label" class="b1label">No</span></a></div><div id="comp-kf8sfbtj" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:161px;height:65px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" onclick="href='/maintask/?&workerId='+'`+workerID+`'+'&task_type='+'`+task+`'+'&block='+'`+block+`'+'&missionVal=0'+'&missionId=1'+'&mission_state=msc'" id="comp-kf8sfbtjlink" class="g-transparent-a b1link"><span id="comp-kf8sfbtjlabel" class="b1label">Practice Complete. </BR>Proceed to Task</span></a></div><div class="style-kf8s5xvn_left-direction style-kf8s5xvn" style="top:;bottom:;left:;right:;width:460px;height:85px;position:" data-state="valid" id="comp-kfpx9ii3"><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kfpx9ii3textarea" id="comp-kfpx9ii3label" class="style-kf8s5xvnlabel"></label><textarea style="padding-left:16px;padding-right:10px" placeholder="" class="has-custom-focus style-kf8s5xvntextarea" id="comp-kfpx9ii3textarea">`+Mrinal+`</textarea></div></div></div></div></div></div></div></div></main><div id="soapAfterPagesContainer" class="page-without-sosp"><style id="soapAfterPagesContainer-mesh-styles">
+            </div></span></div></button></div></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tqtc5"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Example {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tred7"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">Trigger Alert {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ts8az"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">What you should consider {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tsu8k"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">What you need to ask yourself {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ttbhv"></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8ttcnw"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;"></span></span></span></span></a></span></h2></div><div id="comp-kfvfyyya" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfyyyalink" class="b4link"><span id="comp-kfvfyyyalabel" class="b4label"></span></a></div><div id="comp-kfvfz7nq" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfz7nqlink" class="b4link"><span id="comp-kfvfz7nqlabel" class="b4label"></span></a></div><div id="comp-kfvfzeot" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfzeotlink" class="b4link"><span id="comp-kfvfzeotlabel" class="b4label"></span></a></div><div id="comp-kfvfzr63" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="42" data-height="40" style="top:;bottom:;left:;right:;width:30px;height:40px;position:" class="b4" data-state="desktop shouldUseFlex center"><a id="comp-kfvfzr63link" class="b4link"><span id="comp-kfvfzr63label" class="b4label"></span></a></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:20px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kfvg3jl5"><p class="font_10"><span style="font-weight:bold;"><span style="color:#000000;"></span></span></p></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:259px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8tv20d"><h2 class="font_2" style="font-size:13px;"><span style="font-size:13px;"><a href="" onclick="href='/home1/?task_type='+'`+task+`'" target="_blank" ><span style="font-size:13px;"><span style="font-family:futura-lt-w01-book,sans-serif;"><span style="color:#292929;"><span style="text-decoration:underline;">How to report {link will open in new tab}</span></span></span></span></a></span></h2></div><div data-packed="true" data-vertical-text="false" style="top:;bottom:;left:;right:;width:330px;height:1px;position:;pointer-events:none" class="txtNew" id="comp-kf8s6j8x"><p class="font_8" style="font-size:15px; line-height:1.3em;"><span style="font-weight:bold;color:#000000;">`+foot_note+`<span style="letter-spacing:0.03em;"><span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;"><span style="font-size:15px;"><span style="color:#000000;"></span></span></span></span></span></p></div><div id="comp-kfvfxgp6" data-align="center" data-disabled="true" data-margin="0" data-should-use-flex="true" data-width="42" data-height="35" style="top:;bottom:;left:;right:;width:42px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfxgp6link" class="g-transparent-a b1link"><span id="comp-kfvfxgp6label" class="b1label">Yes</span></a></div><div id="comp-kfvfxk97" data-align="center" data-disabled="true" data-margin="0" data-should-use-flex="true" data-width="40" data-height="35" style="top:;bottom:;left:;right:;width:40px;height:35px;position:" class="b1" data-state="desktop shouldUseFlex center"><a  id="comp-kfvfxk97link" class="g-transparent-a b1link"><span id="comp-kfvfxk97label" class="b1label">No</span></a></div><div id="comp-kf8sfbtj" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" data-width="131" data-height="35" style="top:;bottom:;left:;right:;width:161px;height:65px;position:" class="b1" data-state="desktop shouldUseFlex center"><a target="_self" onclick="href='/maintask/?&workerId='+'`+workerID+`'+'&task_type='+'`+task+`'+'&block='+'`+block+`'+'&missionVal=0'+'&missionId=0'+'&mission_state=newreq'" id="comp-kf8sfbtjlink" class="g-transparent-a b1link"><span id="comp-kf8sfbtjlabel" class="b1label">Practice Complete. </BR>Proceed to Task</span></a></div><div class="style-kf8s5xvn_left-direction style-kf8s5xvn" style="top:;bottom:;left:;right:;width:460px;height:85px;position:" data-state="valid" id="comp-kfpx9ii3"><label style="padding-left:0;padding-right:20px;display:none;margin-bottom:14px;text-align:left;direction:ltr" for="comp-kfpx9ii3textarea" id="comp-kfpx9ii3label" class="style-kf8s5xvnlabel"></label><textarea style="padding-left:16px;padding-right:10px" placeholder="" class="has-custom-focus style-kf8s5xvntextarea" id="comp-kfpx9ii3textarea">`+Mrinal+`</textarea></div></div></div></div></div></div></div></div></main><div id="soapAfterPagesContainer" class="page-without-sosp"><style id="soapAfterPagesContainer-mesh-styles">
                 
             #soapAfterPagesContainerinlineContent {
                 height: auto;
@@ -6261,28 +6261,11 @@ for (i = 0; i < coll.length; i++) {
             if( mission_state === "msc") {
               //mission_id=mission_id1;
               } 
-
               if( mission_state === "newreq") {
-                sbmtlnk="fwd";
-                if ( ans_n === '' ) {
-   
-                  k_ans=`${ans_y}`;
-                  yes_val="true";
-             }
- 
-             if (  ans_y === '' ) {
-   
-                  k_ans=`${ans_n}`;
-                  no_val='true';
-             }
- 
-             var sql_chy1 = `insert into session values ('${workerID}','Main Task',${block},${task},${mission_id},'${k_ans}');` 
- 
- 
-                pool.query(sql_chy1,(error, results) => {});
-                //console.log(sql_chy1);
                 ++mission_id;
-                } 
+                                } 
+
+              
          //find tweet text
          
   
@@ -6306,7 +6289,7 @@ for (i = 0; i < coll.length; i++) {
             if (Number(results.rows.length) < Number(mission_id))
             {
                mission_id=results.rows.length;
-               ++mission_val;
+               //++mission_val;
                console.log("mission_val "+mission_val);
                console.log("mission_id "+mission_id);
                if (Number(results.rows.length) == Number(mission_id) && mission_state === "newreq" && Number(mission_val) < Number(results.rows.length)) 
@@ -6352,9 +6335,10 @@ for (i = 0; i < coll.length; i++) {
                    });
                }
            }
-           fin_q=`${mission_id}`; 
-           
-          if (Number(mission_val) >= Number(results.rows.length) ) {
+           fin_q=`${mission_id}`;
+
+           mission_valcmp=mission_val++;
+          if (Number(mission_valcmp) >= Number(results.rows.length) ) {
               
               res.write(`
   
@@ -6378,7 +6362,29 @@ for (i = 0; i < coll.length; i++) {
            
   
            } else {
-            
+
+            if( mission_state === "newreq") {       
+                sbmtlnk="fwd";
+                if ( ans_n === '' ) {
+   
+                  k_ans=`${ans_y}`;
+                  yes_val="true";
+             }
+ 
+             if (  ans_y === '' ) {
+   
+                  k_ans=`${ans_n}`;
+                  no_val='true';
+             }
+             mission_id_real = mission_id;
+             --mission_id_real;
+             var sql_chy1 = `insert into session values ('${workerID}','Main Task',${block},${task},${mission_id_real},'${k_ans}');` 
+ 
+ 
+                pool.query(sql_chy1,(error, results) => {});
+                //console.log(sql_chy1);
+                
+            }
   
       
               //sql =  `select * from tweet where question_number = ${mission_id} and mission_id=${task} and block_id=${block};`;
@@ -6413,7 +6419,7 @@ for (i = 0; i < coll.length; i++) {
           } else {
   
   
-    
+            
           
                
       
