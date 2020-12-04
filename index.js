@@ -6303,7 +6303,7 @@ for (i = 0; i < coll.length; i++) {
          pool.query(sql_chy,(error, results) => {
             fin_val_drpdwn=Number(results.rows.length);
             //console.log("final number of questions : "+results.rows.length);
-            if (Number(results.rows.length) < Number(mission_id))
+            if (Number(results.rows.length) <= Number(mission_id))
             {
                mission_id=results.rows.length;
                if (Number(results.rows.length) == Number(mission_id) && mission_state === "newreq" && Number(mission_val) < Number(results.rows.length)) 
