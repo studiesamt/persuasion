@@ -60,6 +60,7 @@ var foot_note="";
     <!DOCTYPE html>
      <html lang="en">
         <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
            <title>Tweet</title>
 		   
         </head>
@@ -109,6 +110,7 @@ pool.query(sql_chk_worker,(error, results) => {
     <!DOCTYPE html>
      <html lang="en">
         <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
            <title>Tweet</title>
 		   
         </head>
@@ -420,6 +422,7 @@ pool.query(sql_upd_worker,(error, results) => {
      <!DOCTYPE html>
      <html lang="en">
         <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
            <title>Tweet</title>
         </head>
     <body class="prewarmup">
@@ -1671,6 +1674,7 @@ pool.query(sql_upd_worker,(error, results) => {
      <!DOCTYPE html>
      <html lang="en">
         <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
            <title>Tweet</title>
 		   <style>
 
@@ -2972,6 +2976,7 @@ for (i = 0; i < coll.length; i++) {
                     <!DOCTYPE html>
                      <html lang="en">
                         <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                            <title>Tweet</title>
                            
                         </head>
@@ -3010,6 +3015,7 @@ for (i = 0; i < coll.length; i++) {
             <html lang="en">
                   <head>
                        <title>Tweet</title>
+                       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                     </head>
             
                         
@@ -4658,7 +4664,7 @@ for (i = 0; i < coll.length; i++) {
          <html lang="en">
                <head>
                     <title>Tweet</title>
-
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                     <script type="text/javascript">
                     function goToNewPage()
                     {
@@ -6285,6 +6291,7 @@ for (i = 0; i < coll.length; i++) {
            <html lang="en">
                  <head>
                       <title>Tweet</title>
+                      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                   <script type="text/javascript">
                     function goToNewPage()
                     {
@@ -7912,6 +7919,7 @@ for (i = 0; i < coll.length; i++) {
                      <html lang="en">
                         <head>
                            <title>Tweet</title>
+                           <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                            
                         </head>
                     <body>
@@ -7941,6 +7949,7 @@ for (i = 0; i < coll.length; i++) {
                   <!DOCTYPE html>
                   <html lang="en">
                       <head>
+                      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                               <title>Tweet</title>
                           </head>
                   
@@ -7986,6 +7995,7 @@ for (i = 0; i < coll.length; i++) {
            <!DOCTYPE html>
            <html lang="en">
                  <head>
+                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                       <title>Tweet</title>
                   <script type="text/javascript">
                     function goToNewPage()
@@ -9609,6 +9619,7 @@ for (i = 0; i < coll.length; i++) {
                       <!DOCTYPE html>
                       <html lang="en">
                           <head>
+                          <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                                   <title>Tweet</title>
                               </head>
                       
