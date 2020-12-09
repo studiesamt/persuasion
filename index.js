@@ -7889,7 +7889,7 @@ for (i = 0; i < coll.length; i++) {
          pool.on('error',function(err,client){});
          pool.query(sql_chy,(error, results) => {
             fin_val_drpdwn=Number(results.rows.length);
-            //console.log("final number of questions : "+results.rows.length);
+            console.log("final number of questions : "+results.rows.length);
             if (Number(results.rows.length) < Number(mission_id))
             {
                 mission_id=results.rows.length;
@@ -7940,8 +7940,11 @@ for (i = 0; i < coll.length; i++) {
            }
            fin_q=`${mission_id}`;
 
+           chk_num=Number(mission_val);
+           ++chk_num;
+
          
-          if (Number(mission_val) >= Number(results.rows.length) ) {
+          if (Number(chk_num) >= Number(results.rows.length) ) {
               
               res.write(`
   
