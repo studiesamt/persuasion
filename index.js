@@ -7944,7 +7944,7 @@ for (i = 0; i < coll.length; i++) {
            ++chk_num;
 
          
-          if (Number(chk_num) >= Number(results.rows.length) ) {
+          if (Number(mission_val) >= Number(results.rows.length) ) {
               
               res.write(`
   
