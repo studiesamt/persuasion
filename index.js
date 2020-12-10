@@ -7914,6 +7914,7 @@ for (i = 0; i < coll.length; i++) {
                        /*data.forEach(row => {
                            alert(`question: ${row.question}`);
                        })*/
+                       if (missing.length !== 0) {
                        res.write(`
                     <!DOCTYPE html>
                      <html lang="en">
@@ -7931,6 +7932,31 @@ for (i = 0; i < coll.length; i++) {
                     </body>
                 </html>
                 `);
+                       }
+                       if (missing.length === 0) {
+                        res.write(`
+  
+  
+                        <!DOCTYPE html>
+                        <html lang="en">
+                            <head>
+                            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                                    <title>Tweet</title>
+                                </head>
+                        
+                                <body>
+                                <h1>Thanks for completion of Tweet</h1>
+        
+                        </body>
+                        </html>
+                        
+                                `);
+                                res.end();
+                 
+        
+                 
+        
+                 } 
                     
                    
                    
@@ -7940,8 +7966,7 @@ for (i = 0; i < coll.length; i++) {
            }
            fin_q=`${mission_id}`;
 
-           chk_num=Number(mission_val);
-           ++chk_num;
+          
 
          
           if (Number(mission_val) >= Number(results.rows.length) ) {
